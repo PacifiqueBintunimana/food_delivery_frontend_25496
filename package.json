@@ -1,11 +1,14 @@
 {
+  "homepage": "https://PacifiqueBintunimana.github.io/food_delivery_frontend_25496",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
